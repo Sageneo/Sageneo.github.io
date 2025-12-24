@@ -3,330 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les Lanceurs du Nord - Lancer de Hache en Suisse</title>
-    <meta name="description" content="Les Lanceurs du Nord - Apprenez le lancer de hache avec notre équipe professionnelle. Événements et formations en Suisse.">
+    <title>Les Lanceurs du Nord - Lancer de Hache</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2024/11/LdN-logo.png" alt="Les Lanceurs du Nord Logo">
-            </div>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#accueil" class="nav-link">Accueil</a></li>
-                <li><a href="#apropos" class="nav-link">À propos</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#styles" class="nav-link">Styles de lancer</a></li>
-                <li><a href="#agenda" class="nav-link">Agenda</a></li>
-                <li><a href="#galerie" class="nav-link">Galerie</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li><a href="#rgpd" class="nav-link">RGPD</a></li>
+    <header>
+        <nav>
+            <a href="#hero" class="logo">Les Lanceurs du Nord</a>
+            <ul>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#activities">Nos Activités</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#partners">Nos Partenaires</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="accueil" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="hero-title animate-fade-in">Bienvenue chez<br><span class="highlight">Les Lanceurs du Nord</span></h1>
-            <p class="hero-subtitle animate-fade-in-delay">Nous sommes une équipe de choc. Nous allons vous apprendre à maîtriser le lancer de la hache et vous permettre de sécuriser tous vos lancers.</p>
-            <div class="hero-cta animate-fade-in-delay-2">
-                <a href="#contact" class="btn btn-primary">Demandez une offre</a>
-                <a href="#apropos" class="btn btn-secondary">En savoir plus</a>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Les Lanceurs du Nord</h1>
+                <p>Le premier club de lancer de hache en Suisse Romande.</p>
+                <a href="#contact" class="cta-button">Nous contacter</a>
             </div>
-            <p class="hero-tagline">🎯 Nous nous déplaçons sur votre terrain pour vos événements</p>
-        </div>
-        <div class="scroll-indicator">
-            <span></span>
-        </div>
-    </section>
+        </section>
 
-    <!-- Media Section -->
-    <section class="media-section">
-        <div class="container">
-            <h2 class="section-title">Ils parlent de nous</h2>
-            <div class="media-grid">
-                <a href="#" class="media-card" target="_blank">
-                    <div class="media-icon">📺</div>
-                    <h3>RTN</h3>
-                </a>
-                <a href="#" class="media-card" target="_blank">
-                    <div class="media-icon">🎙️</div>
-                    <h3>RedLine Radio</h3>
-                </a>
-                <a href="#" class="media-card" target="_blank">
-                    <div class="media-icon">📡</div>
-                    <h3>La Télé</h3>
-                </a>
-                <a href="#" class="media-card" target="_blank">
-                    <div class="media-icon">🎬</div>
-                    <h3>RTS</h3>
-                </a>
-            </div>
-        </div>
-    </section>
+        <section id="about">
+            <h2>À Propos de Nous</h2>
+            <p>Passionnés par le lancer de hache, nous avons fondé Les Lanceurs du Nord pour partager notre passion et créer une communauté de lanceurs en Suisse Romande. Nous organisons des initiations, des entraînements et des événements pour tous les niveaux.</p>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <h2 class="section-title">Ce que nous mettons en place</h2>
-            <p class="section-subtitle">Pour une expérience inoubliable</p>
-            <div class="services-grid">
-                <div class="service-card scroll-reveal">
-                    <div class="service-image">
-                        <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/02/event-space-03.png" alt="Créativité">
-                    </div>
-                    <h3>🎨 Créativité</h3>
-                    <p>Des événements sur mesure adaptés à vos besoins</p>
+        <section id="activities">
+            <h2>Nos Activités</h2>
+            <div class="activity-grid">
+                <div class="activity">
+                    <h3>Initiations</h3>
+                    <p>Découvrez le lancer de hache avec nos instructeurs certifiés. Aucune expérience requise.</p>
                 </div>
-                <div class="service-card scroll-reveal">
-                    <div class="service-image">
-                        <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2024/01/les_lanceurs_du_nord.jpg" alt="Une équipe">
-                    </div>
-                    <h3>👥 Une équipe</h3>
-                    <p>Des professionnels passionnés à votre service</p>
+                <div class="activity">
+                    <h3>Entraînements</h3>
+                    <p>Perfectionnez votre technique et entraînez-vous pour les compétitions.</p>
                 </div>
-                <div class="service-card scroll-reveal">
-                    <div class="service-image">
-                        <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/01/libre_20211222_165626000_iOS_186.jpg" alt="Formation">
-                    </div>
-                    <h3>🎓 Formation</h3>
-                    <p>Apprentissage complet et sécurisé du lancer</p>
-                </div>
-                <div class="service-card scroll-reveal">
-                    <div class="service-image">
-                        <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/01/libre_20211210_144233000_iOS_128.jpg" alt="Événements">
-                    </div>
-                    <h3>🎉 Événements</h3>
-                    <p>Team building, anniversaires, compétitions</p>
+                <div class="activity">
+                    <h3>Événements</h3>
+                    <p>Nous organisons des événements privés et d'entreprise. Contactez-nous pour en savoir plus.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="apropos" class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text scroll-reveal">
-                    <h2 class="section-title">À propos du lancer de hache</h2>
-                    <p>Le lancer de haches à l'extérieur est un sport qui gagne en popularité dans de nombreux pays. Il implique de lancer des haches de manière précise sur des cibles en bois, dans un environnement extérieur.</p>
-                    <p>Les participants doivent suivre des règles de sécurité strictes et utiliser des haches spécialement conçues pour ce sport.</p>
-                    <p>Le lancer de haches est considéré comme une activité de loisir, mais il est également pratiqué en compétition, avec des tournois organisés à travers le monde. Le sport peut être pratiqué individuellement ou en équipe, et les participants doivent développer des compétences en matière de coordination, de précision et de force.</p>
-                    <div class="about-cta">
-                        <a href="#contact" class="btn btn-primary">Contactez-nous</a>
-                    </div>
-                </div>
-                <div class="about-image scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/01/libre_20210829_133415000_iOS_019.jpg" alt="Lancer de hache">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Styles Section -->
-    <section id="styles" class="styles-section">
-        <div class="container">
-            <h2 class="section-title">Les différents styles de lancer</h2>
-            <div class="styles-grid">
-                <div class="style-card scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/01/libre_20210829_133415000_iOS_019.jpg" alt="Style classique">
-                    <div class="style-overlay">
-                        <h3>Lancer Classique</h3>
-                        <p>Technique traditionnelle</p>
-                    </div>
-                </div>
-                <div class="style-card scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-16-at-19.21.01-1.jpeg" alt="Style avancé">
-                    <div class="style-overlay">
-                        <h3>Lancer Avancé</h3>
-                        <p>Pour les experts</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Agenda Section -->
-    <section id="agenda" class="agenda-section">
-        <div class="container">
-            <h2 class="section-title">📅 À vos agendas</h2>
-            <div class="agenda-content scroll-reveal">
-                <div class="agenda-card">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/02/9n1usijyjz4.gif" alt="Calendrier">
-                    <a href="https://les-lanceurs-du-nord.ch/les-lanceurs-du-nord/cal/" target="_blank" class="btn btn-primary">Voir le calendrier complet</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="galerie" class="gallery-section">
-        <div class="container">
-            <h2 class="section-title">📸 Galerie</h2>
+        <section id="gallery">
+            <h2>Galerie</h2>
+            <p>Ici, nous afficherons les photos que vous avez partagées dans le Google Drive. Pour le moment, je n'ai pas pu y accéder. Veuillez vous assurer que le dossier est partagé avec "tous les utilisateurs disposant du lien".</p>
             <div class="gallery-grid">
-                <div class="gallery-item scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/01/libre_20211208_193044000_iOS_123.jpg" alt="Galerie 1">
-                </div>
-                <div class="gallery-item scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2024/01/les_lanceurs_du_nord.jpg" alt="Galerie 2">
-                </div>
-                <div class="gallery-item scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/01/libre_20211222_165626000_iOS_186.jpg" alt="Galerie 3">
-                </div>
-                <div class="gallery-item scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/01/libre_20211210_144233000_iOS_128.jpg" alt="Galerie 4">
-                </div>
-                <div class="gallery-item scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/01/libre_20210829_133415000_iOS_019.jpg" alt="Galerie 5">
-                </div>
-                <div class="gallery-item scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-16-at-19.21.01-1.jpeg" alt="Galerie 6">
-                </div>
+                <!-- Placeholder for gallery images -->
+                <img src="https://via.placeholder.com/400x300" alt="Galerie Image 1">
+                <img src="https://via.placeholder.com/400x300" alt="Galerie Image 2">
+                <img src="https://via.placeholder.com/400x300" alt="Galerie Image 3">
+                <img src="https://via.placeholder.com/400x300" alt="Galerie Image 4">
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title">📬 Contact</h2>
-            <div class="contact-grid">
-                <div class="contact-info scroll-reveal">
-                    <h3>Coordonnées</h3>
-                    <div class="contact-item">
-                        <span class="contact-icon">📧</span>
-                        <a href="mailto:ldn@les-lanceurs-du-nord.ch">ldn@les-lanceurs-du-nord.ch</a>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">📱</span>
-                        <a href="tel:+41796541640">+41 79 654 16 40</a>
-                    </div>
-                    <div class="contact-socials">
-                        <a href="#" class="social-link" aria-label="Facebook">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="RSS">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg>
-                        </a>
-                    </div>
-                </div>
-                <form class="contact-form scroll-reveal" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Votre nom *</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Votre e-mail *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Téléphone</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Objet *</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Votre message</label>
-                        <textarea id="message" name="message" rows="5"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Partners Section -->
-    <section class="partners-section">
-        <div class="container">
-            <h2 class="section-title">Nos partenaires</h2>
+        <section id="partners">
+            <h2>Nos Partenaires</h2>
+            <p>Je n'ai pas pu trouver les logos de vos partenaires. Pourriez-vous me les fournir ? En attendant, voici la liste de vos partenaires :</p>
             <div class="partners-grid">
-                <a href="https://elevategym.swiss/" target="_blank" class="partner-logo scroll-reveal">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2025/08/ELEVATE_LOGOTYPE_N.png" alt="Elevate Gym">
-                </a>
+                <div class="partner">CASTLE-PUB</div>
+                <div class="partner">L.A. serrurerie Sarl</div>
+                <div class="partner">A.Simon machines agricoles</div>
+                <div class="partner">Gasser Activites Loisier</div>
+                <div class="partner">AXA Eric Stern</div>
+                <div class="partner">Chopfab Boxer</div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- RGPD Section -->
-    <section id="rgpd" class="rgpd-section">
-        <div class="container">
-            <div class="rgpd-content scroll-reveal">
-                <h2 class="section-title">Protection des données (RGPD)</h2>
-                <div class="rgpd-text">
-                    <h3>Collecte et utilisation des données</h3>
-                    <p>Les Lanceurs du Nord s'engage à protéger votre vie privée. Les informations personnelles collectées via notre formulaire de contact sont utilisées uniquement pour répondre à vos demandes.</p>
-                    
-                    <h3>Données collectées</h3>
-                    <ul>
-                        <li>Nom et prénom</li>
-                        <li>Adresse e-mail</li>
-                        <li>Numéro de téléphone (optionnel)</li>
-                        <li>Message</li>
-                    </ul>
-                    
-                    <h3>Vos droits</h3>
-                    <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données personnelles. Pour exercer ces droits, contactez-nous à : <a href="mailto:ldn@les-lanceurs-du-nord.ch">ldn@les-lanceurs-du-nord.ch</a></p>
-                    
-                    <h3>Cookies</h3>
-                    <p>Notre site utilise des cookies essentiels pour son bon fonctionnement. Aucun cookie de tracking tiers n'est utilisé.</p>
-                    
-                    <h3>Sécurité</h3>
-                    <p>Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos données contre tout accès non autorisé.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Email: <a href="mailto:info@leslanceursdunord.ch">info@leslanceursdunord.ch</a></p>
+            <p>Téléphone: 079 123 45 67</p>
+            <p>Adresse: Rue de la Hache 123, 1234 Ville</p>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="https://les-lanceurs-du-nord.ch/wp-content/uploads/2024/11/LdN-logo.png" alt="Les Lanceurs du Nord">
-                </div>
-                <div class="footer-links">
-                    <h4>Liens utiles</h4>
-                    <ul>
-                        <li><a href="#">Règles de Sécurité</a></li>
-                        <li><a href="#">Décharge concours</a></li>
-                        <li><a href="#">Règlement Hache Double</a></li>
-                        <li><a href="#">Règle des Compétitions</a></li>
-                        <li><a href="#">Assemblée</a></li>
-                        <li><a href="https://les-lanceurs-du-nord.ch/les-lanceurs-du-nord/cal/">Calendrier</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact</h4>
-                    <p>📧 <a href="mailto:ldn@les-lanceurs-du-nord.ch">ldn@les-lanceurs-du-nord.ch</a></p>
-                    <p>📱 <a href="tel:+41796541640">+41 79 654 16 40</a></p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Les Lanceurs du Nord - Tous droits réservés</p>
-                <p>Créé par <a href="https://info.sagette.ch" target="_blank">InfoSagette</a></p>
-            </div>
-        </div>
+    <footer>
+        <p>&copy; 2025 Les Lanceurs du Nord. Tous droits réservés.</p>
     </footer>
-
-    <!-- Back to Top Button -->
-    <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
-    </button>
 
     <script src="script.js"></script>
 </body>
